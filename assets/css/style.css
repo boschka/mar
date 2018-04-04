@@ -38,7 +38,7 @@ header {
 	padding: 50px;
 	margin: 0px;
 	height: 100vh;
-
+	text-align: center;
 }
 h1 {
 	/* margin: 0; */
@@ -57,6 +57,14 @@ h2 {
 	text-decoration: none;
 	position: center;
 }
+h3 {
+	/* margin: 0; */
+	font-family: "Futura", sans-serif;
+	font-weight: 200;
+    font-size: 16px;
+	text-decoration: none;
+	
+}
 
 a, a:visited {
 	text-decoration: none;
@@ -70,13 +78,30 @@ nav ul {
 	padding: 0;
 }
 
-div.main{
+div.main {
 	padding: 0;
     height: 100vh;
     display: flex;
+    overflow: auto;
+    width: 100vw;
 }
-
 div.main section {
+    position: relative;
+}
+div.main section h3 {
+	position: absolute;
+	transform: rotate(-90deg) translateX(-100%);
+	transform-origin: top left;
+	margin: 0;
+	line-height: 1em;
+	top: 2em;
+	left: 2em;
+}
+div.main section p {
+	margin: 0;
+}
+div.main section .scrolling-panel {
+	/*display: none;*/
 	word-wrap: break-word;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: none;
@@ -85,4 +110,5 @@ div.main section {
     height: 100%;
     min-width: 300px;
     margin: 1em;
+    margin-left: 4em;
 }

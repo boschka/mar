@@ -1,0 +1,85 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: "Futura", sans-serif;
+	font-size: 20px;
+	background-color: #white;
+	font-style: normal;
+	margin: 0;
+	padding: 100;
+}
+
+/* Style the video: 100% width and height to cover the entire window 
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+*/
+/* Add some content at the bottom of the video/page 
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+*/
+header {
+	overflow-y: scroll;
+	background-color: black;
+	color: white;
+	font-size: 100px;
+	padding-left: 350px;
+    padding-top: 100px;
+	margin: 0px;
+}
+h1 {
+	/* margin: 0; */
+	font-weight: 50;
+    font-size: 180px;
+	text-decoration: underline;
+	position: center;
+}
+h2 {
+	/* margin: 0; */
+	font-weight: 0;
+	font-size: 10px;
+	text-decoration: none;
+	position: center;
+}
+.main
+{
+	padding: 0px;
+}
+
+a, a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: line-through;
+}
+nav ul {
+	list-style: none; /* nema bullets */
+	padding: 0;
+}
+div.main{
+	height: 100%;
+	overflow-y: hidden;
+	padding: 0;
+}
+
+div.main section {
+	background: white;
+	overflow-y: scroll;
+	height: 100%;
+	width: 300px;
+	float: left;
+	margin-right: 4em;
+	word-wrap: break-word;
+}
